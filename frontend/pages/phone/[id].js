@@ -26,7 +26,7 @@ export default function Home({ data }) {
 
                 <main className='w-full h-full flex flex-col justify-center items-center'>
                     <div className='h-[50%] w-[50%] flex justify-center items-center'>
-                        <img loading='lazy' src={image_url} alt={data['model_name']}></img>
+                        <img loading='lazy' src={image_url} alt={data['model_name']} className='w-[40%]'></img>
                         <div>
                             <h1>{brand_name} {model_name}</h1>
                             <p>os: {os}</p>
